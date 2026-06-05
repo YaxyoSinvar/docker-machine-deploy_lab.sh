@@ -1,5 +1,19 @@
 ## To'liq avtomatlashtirilgan script (`deploy_lab.sh`)
+# Run the autorun script
 
+./autorun.sh
+
+```
+
+## Ishga tushirish uchun:
+
+```bash
+# 1. Yuklab olish yoki yaratish
+chmod +x deploy_lab.sh
+
+# 2. Ishga tushirish (hamma narsa avtomatik)
+./deploy_lab.sh
+```
 ## Manual Control
 
 ```bash
