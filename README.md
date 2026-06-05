@@ -14,21 +14,7 @@ chmod +x deploy_lab.sh
 # 2. Ishga tushirish (hamma narsa avtomatik)
 ./deploy_lab.sh
 ```
-## Manual Control
 
-```bash
-# Containerlar ishlayaptimi?
-docker ps
-
-# Web app ga kirish
-curl <http://localhost:8080>
-
-# Linux mashinasiga SSH
-ssh user1@localhost -p 2222
-
-# Flags ni o'qish
-curl <http://localhost:8080/flag1>
-```
 ## Yagona skript bilan to'liq deploy qilish:
 
 Agar siz hamma narsani bitta fayldan ishga tushirmoqchi bo'lsangiz, yuqoridagi `deploy_lab.sh` faylini yarating va ishga tushiring. Bu skript:
